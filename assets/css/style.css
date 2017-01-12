@@ -1,0 +1,55 @@
+body{
+  background-image: url("../img/3.jpg");
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.backgroundCell{
+  background: rgba(65, 81, 80, 0.74);
+}
+
+.ownTable{
+  width: 40%;
+  color: white;
+}
+.ownTable td{
+  padding: 12px;
+  border: 1.5px solid white;
+  height: 10px;
+  width: 46px;
+  color: white;
+}
+
+.buttonsContainer{
+  display: flex;
+  height: 118px;
+  margin-bottom: 5%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+
+}
+
+
+td:first-child {
+    border-left: solid;
+}
+
+td:nth-child(3n) {
+    border-right: solid;
+}
+
+tr:first-child {
+    border-top: solid;
+}
+
+tr:nth-child(3n) td {
+    border-bottom: solid;
+}
