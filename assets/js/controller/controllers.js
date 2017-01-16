@@ -19,8 +19,8 @@ app.controller('MainController' , ['$scope' , 'sudokuService' , function($scope 
     }
 
     $scope.send = function(){
+
         
-        sudokuService.checkData(tempArray).then(res=>console.log(res));
 
     }
 
